@@ -8,7 +8,7 @@ This SQL project builds a **School Management System** that stores and manages d
 ###  Project Overview:
 This project models a relational database for managing school operations including teacher assignments, class schedules, and subject tracking. It demonstrates your ability to design normalized schemas, enforce referential integrity, and write SQL queries for academic administration.
 
----
+
 
 ###  Database Schema Design
 
@@ -26,7 +26,7 @@ Defines weekly class timings:
 - Fields: `schedule_id`, `class_id`, `day_of_week`, `start_time`, `end_time`
 - Foreign Key: `class_id` → `classes`
 
----
+
 
 ###  SQL Query Highlights
 
@@ -44,7 +44,7 @@ Defines weekly class timings:
 - Find classes taught by teachers whose names start with 'J'  
 - Get teachers scheduled on a specific day (e.g., Friday)
 
----
+
 
 ###  Skills Demonstrated
 - Relational schema design with foreign key constraints  
@@ -54,7 +54,7 @@ Defines weekly class timings:
 - Update and delete operations  
 - Time-based scheduling logic
 
----
+
 
 ###  Outcome:
 This project showcases your ability to build and query a school database system using MySQL. It reflects practical skills in academic data management, scheduling, and teacher-class mapping — essential for roles in database development, education tech, and administrative systems.
